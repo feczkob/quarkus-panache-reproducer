@@ -11,3 +11,6 @@ It appeared with Quarkus 3.29, the previous 3.28.5 version works fine.
 
 ## Reproduction
 Run `./mvnw clean verify` to see the error, or run `ExampleRepositoryTest` directly from your IDE.
+
+## Related Quarkus issue
+Click [here](https://github.com/quarkusio/quarkus/issues/51023). For some reason upgrading to Kotlin `2.2.20` resolves the error, but it's unclear why.
